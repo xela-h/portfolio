@@ -51,7 +51,7 @@ export const about = {
 }
 
 export const work = {
-	title: "What I Do",
+	title: "What I do",
 	cards: [
 		{
 			title: "Web Development",
