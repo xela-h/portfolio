@@ -43,25 +43,6 @@ export const Projects = ({ title, cards }) => {
 	);
 }
 
-export const TechnicalWriting = ({ title, cards }) => {
-	return (
-		<div id="writing" className="bg-secondary py-5 px-5">
-			<div className="container">
-				<h1 className="text-primary fw-bold">{title}</h1>
-				<div className="d-flex flex-row flex-wrap justify-content-center">
-					{cards.map((value, index) => (
-						<Card
-						key={index}
-						title={value.title}
-						description={value.description}
-						icons={value.icons} />
-					))}
-				</div>
-			</div>
-		</div>
-	);
-}
-
 export const Card = ({ title, description, icons }) => {
 	return (
 		<div className="card py-3 px-3 mx-sm-4 my-4 card-work" style={{ width: "20rem" }}>

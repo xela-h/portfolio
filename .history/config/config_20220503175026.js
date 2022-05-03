@@ -155,8 +155,8 @@ export const SEO = {
 
 export const links = {
 	image: profile.src,
-	title: "@xe1a.who",
-	description: "Computer Science Student | Full Stack Developer",
+	title: "@xe1a.who" "",
+	description: "Computer Science Student | Reactjs Developer",
 	cards: [
 		{
 			title: "My GitHub",

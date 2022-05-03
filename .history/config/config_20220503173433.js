@@ -1,6 +1,6 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGoogleDrive, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -50,16 +50,16 @@ export const about = {
 	],
 }
 
-// export const work = {
-// 	title: "What I Do",
-// 	cards: [
-// 		{
-// 			title: "Web Development",
-// 			description: "I create responsive static websites using Reactjs.",
-// 			icons: null,
-// 		}
-// 	],
-// }
+export const work = {
+	title: "What I Do",
+	cards: [
+		{
+			title: "Web Development",
+			description: "I create responsive static websites using Reactjs.",
+			icons: null,
+		}
+	],
+}
 
 export const projects = {
 	title: "Projects",
@@ -102,33 +102,18 @@ export const writing = {
 	cards: [
 		{
 			title: "User Manual",
-			description: "Instructions For How to Play Tiến lên",
-			icons: [
-				{
-					icon: faGoogleDrive,
-					link: "https://drive.google.com/drive/folders/1V_qQ1TuWSwbn89ULxVJ-P0FFgKjVyzqc?usp=sharing",
-				},
-			]
+			description: "I create responsive static websites using Reactjs.",
+			icons: null,
 		},
 		{
 			title: "Cover Letter",
-			description: "Cover letter to a recruiter at Box",
-			icons: [
-				{
-					icon: faGoogleDrive,
-					link: "https://drive.google.com/drive/folders/1V_qQ1TuWSwbn89ULxVJ-P0FFgKjVyzqc?usp=sharing",
-				},
-			]
+			description: "I create responsive static websites using Reactjs.",
+			icons: null,
 		},
 		{
 			title: "Press Release",
-			description: "VSA's Tiến Lên event",
-			icons: [
-				{
-					icon: faGoogleDrive,
-					link: "https://drive.google.com/drive/folders/1V_qQ1TuWSwbn89ULxVJ-P0FFgKjVyzqc?usp=sharing",
-				},
-			]
+			description: "I create responsive static websites using Reactjs.",
+			icons: null,
 		},
 	],
 }
@@ -156,7 +141,7 @@ export const SEO = {
 export const links = {
 	image: profile.src,
 	title: "@xe1a.who",
-	description: "Computer Science Student | Full Stack Developer",
+	description: "Computer Science Student | Reactjs Developer",
 	cards: [
 		{
 			title: "My GitHub",

@@ -34,12 +34,12 @@ export const Footer = () => {
 	return (
 		<footer className="bg-secondary text-center py-2 px-5">
 			<div className="container text-muted">
-				<small>&copy; 2022 {" "}
-					<Link href="https://github.com/xela-h">
+				<small>&copy; 2021 {" "}
+					<Link href="https://github.com/hashirshoaeb">
 						<a>xela-h</a>
 					</Link>
 					. Open sourced with love under {" "}
-					<Link href="https://github.com/xela-h/xela-h.github.io/blob/master/LICENSE.md">
+					<Link href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">
 						<a>MIT</a>
 					</Link>
 					{" "} License

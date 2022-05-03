@@ -50,16 +50,16 @@ export const about = {
 	],
 }
 
-// export const work = {
-// 	title: "What I Do",
-// 	cards: [
-// 		{
-// 			title: "Web Development",
-// 			description: "I create responsive static websites using Reactjs.",
-// 			icons: null,
-// 		}
-// 	],
-// }
+export const work = {
+	title: "What I Do",
+	cards: [
+		{
+			title: "Web Development",
+			description: "I create responsive static websites using Reactjs.",
+			icons: null,
+		}
+	],
+}
 
 export const projects = {
 	title: "Projects",
@@ -105,8 +105,8 @@ export const writing = {
 			description: "Instructions For How to Play Tiến lên",
 			icons: [
 				{
-					icon: faGoogleDrive,
-					link: "https://drive.google.com/drive/folders/1V_qQ1TuWSwbn89ULxVJ-P0FFgKjVyzqc?usp=sharing",
+					icon: faGithub,
+					link: "https://github.com/joy-courses/cse220-hw4-xela-h",
 				},
 			]
 		},
@@ -115,8 +115,8 @@ export const writing = {
 			description: "Cover letter to a recruiter at Box",
 			icons: [
 				{
-					icon: faGoogleDrive,
-					link: "https://drive.google.com/drive/folders/1V_qQ1TuWSwbn89ULxVJ-P0FFgKjVyzqc?usp=sharing",
+					icon: faGithub,
+					link: "https://github.com/joy-courses/cse220-hw4-xela-h",
 				},
 			]
 		},
@@ -125,8 +125,8 @@ export const writing = {
 			description: "VSA's Tiến Lên event",
 			icons: [
 				{
-					icon: faGoogleDrive,
-					link: "https://drive.google.com/drive/folders/1V_qQ1TuWSwbn89ULxVJ-P0FFgKjVyzqc?usp=sharing",
+					icon: faGithub,
+					link: "https://github.com/joy-courses/cse220-hw4-xela-h",
 				},
 			]
 		},
@@ -156,7 +156,7 @@ export const SEO = {
 export const links = {
 	image: profile.src,
 	title: "@xe1a.who",
-	description: "Computer Science Student | Full Stack Developer",
+	description: "Computer Science Student | Reactjs Developer",
 	cards: [
 		{
 			title: "My GitHub",

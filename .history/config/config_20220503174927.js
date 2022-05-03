@@ -126,7 +126,7 @@ export const writing = {
 			icons: [
 				{
 					icon: faGoogleDrive,
-					link: "https://drive.google.com/drive/folders/1V_qQ1TuWSwbn89ULxVJ-P0FFgKjVyzqc?usp=sharing",
+					link: "https://github.com/joy-courses/cse220-hw4-xela-h",
 				},
 			]
 		},
@@ -156,7 +156,7 @@ export const SEO = {
 export const links = {
 	image: profile.src,
 	title: "@xe1a.who",
-	description: "Computer Science Student | Full Stack Developer",
+	description: "Computer Science Student | Reactjs Developer",
 	cards: [
 		{
 			title: "My GitHub",

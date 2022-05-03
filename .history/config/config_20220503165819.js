@@ -1,6 +1,6 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGoogleDrive, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -50,16 +50,16 @@ export const about = {
 	],
 }
 
-// export const work = {
-// 	title: "What I Do",
-// 	cards: [
-// 		{
-// 			title: "Web Development",
-// 			description: "I create responsive static websites using Reactjs.",
-// 			icons: null,
-// 		}
-// 	],
-// }
+export const work = {
+	title: "What I Do",
+	cards: [
+		{
+			title: "Web Development",
+			description: "I create responsive static websites using Reactjs.",
+			icons: null,
+		}
+	],
+}
 
 export const projects = {
 	title: "Projects",
@@ -97,36 +97,44 @@ export const projects = {
 	],
 }
 
-export const writing = {
-	title: "Technical Writing",
+export const contact = {
+	title: "Get in touch",
+	description: "Feel free to reach out directly by email at xelah3@gmail.com.",
+	buttons: [
+		{
+			title: "Email Me",
+			link: "mailto:xelah3@gmail.com",
+			isPrimary: true,
+		},
+	],
 	cards: [
 		{
-			title: "User Manual",
-			description: "Instructions For How to Play Tiến lên",
+			title: "Vatsyayana Cipher",
+			description: "The Vatsyayana Cipher is a simple substitution cipher where the letters of an alphabet are organized into random pairs of letters.",
 			icons: [
 				{
-					icon: faGoogleDrive,
-					link: "https://drive.google.com/drive/folders/1V_qQ1TuWSwbn89ULxVJ-P0FFgKjVyzqc?usp=sharing",
+					icon: faGithub,
+					link: "https://github.com/joy-courses/cse220-hw2-xela-h",
 				},
 			]
 		},
 		{
-			title: "Cover Letter",
-			description: "Cover letter to a recruiter at Box",
+			title: "Fake Stack Overflow",
+			description: "A clone of StackOverflow. You can post questions and answers, track the number of views and responses, and search based on descriptors.",
 			icons: [
 				{
-					icon: faGoogleDrive,
-					link: "https://drive.google.com/drive/folders/1V_qQ1TuWSwbn89ULxVJ-P0FFgKjVyzqc?usp=sharing",
+					icon: faGithub,
+					link: "https://github.com/CSE-316-Software-Development/cse316-hw1-xela-h",
 				},
 			]
 		},
 		{
-			title: "Press Release",
-			description: "VSA's Tiến Lên event",
+			title: "Network Structure",
+			description: "Creating a network of people in which nodes represent people and edges between nodes represent relationships between people.",
 			icons: [
 				{
-					icon: faGoogleDrive,
-					link: "https://drive.google.com/drive/folders/1V_qQ1TuWSwbn89ULxVJ-P0FFgKjVyzqc?usp=sharing",
+					icon: faGithub,
+					link: "https://github.com/joy-courses/cse220-hw4-xela-h",
 				},
 			]
 		},
@@ -156,7 +164,7 @@ export const SEO = {
 export const links = {
 	image: profile.src,
 	title: "@xe1a.who",
-	description: "Computer Science Student | Full Stack Developer",
+	description: "Computer Science Student | Reactjs Developer",
 	cards: [
 		{
 			title: "My GitHub",

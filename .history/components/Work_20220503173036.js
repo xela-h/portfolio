@@ -51,10 +51,10 @@ export const TechnicalWriting = ({ title, cards }) => {
 				<div className="d-flex flex-row flex-wrap justify-content-center">
 					{cards.map((value, index) => (
 						<Card
-						key={index}
-						title={value.title}
-						description={value.description}
-						icons={value.icons} />
+							key={index}
+							title={value.title}
+							description={value.description}
+							link={value.link} />
 					))}
 				</div>
 			</div>

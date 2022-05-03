@@ -3,7 +3,7 @@ import { Nav } from '../components/Navbar';
 import { Intro, About } from '../components/Intro';
 import { Skills, Projects, TechnicalWriting } from '../components/Work';
 import { Footer, Contact } from '../components/Footer';
-import { about, contact, intro, navigation, projects, SEO, work, writing } from '../config/config';
+import { about, contact, intro, navigation, projects, SEO, work } from '../config/config';
 import { Header } from '../components/Header';
 
 export default function Home() {
@@ -24,17 +24,17 @@ export default function Home() {
         title={about.title}
         description={about.description}
       />
-      {/* <Skills
+      <Skills
         title={work.title}
         cards={work.cards}
-      /> */}
+      />
       <Projects
         title={projects.title}
         cards={projects.cards}
       />
       <TechnicalWriting
         title={writing.title}
-        cards={writing.cards}
+        cards={projects.cards}
       />
       <Contact
         title={contact.title}
